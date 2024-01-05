@@ -1,1 +1,22 @@
 rootProject.name = 'market'
+
+include 'market-api'
+include 'market-api:market-admin-api'
+include 'market-api:market-user-api'
+
+include 'market-core'
+
+include 'market-internal'
+include 'market-internal:market-auth'
+include 'market-internal:market-image'
+
+include 'market-domain'
+include 'market-domain:market-db'
+include 'market-domain:market-user'
+include 'market-domain:market-product'
+include 'market-domain:market-order'
+
+include 'market-support'
+include 'market-support:market-web-support'
+include 'market-support:market-common-support'
+include 'market-support:market-async-support'
