@@ -24,6 +24,7 @@ subprojects {
     mainClassName = 'com.hnv99.market.MarketApplication'
 
     dependencies {
+        implementation 'org.projectlombok:lombok'
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
         testImplementation "org.junit.jupiter:junit-jupiter-params:5.7.0"
     }

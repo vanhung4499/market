@@ -1,0 +1,8 @@
+dependencies {
+    implementation project(':market-core')
+    implementation project(':market-support:market-common-support')
+    implementation project(':market-support:market-async-support')
+}
+
+bootJar.enabled=false
+jar.enabled=true

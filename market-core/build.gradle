@@ -1,0 +1,15 @@
+dependencies {
+    api project(':market-domain:market-user')
+    api project(':market-internal:market-auth')
+    api project(':market-support:market-web-support')
+    api project(':market-domain:market-product') // implementation
+    api project(':market-domain:market-order') // implementation
+
+    implementation project(':market-support:market-common-support')
+    implementation project(':market-domain') // delete
+
+    implementation 'com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.3'
+}
+
+bootJar.enabled=false
+jar.enabled=true

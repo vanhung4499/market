@@ -1,0 +1,8 @@
+dependencies {
+    api project(":market-domain:market-db")
+    implementation project(':market-support:market-web-support')
+    implementation project(':market-support:market-common-support')
+}
+
+bootJar.enabled=false
+jar.enabled=true
